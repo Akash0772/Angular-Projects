@@ -1,0 +1,14 @@
+/* bold home , about , menu , contact */
+/* .active-link
+{
+    font-weight: bold;
+} */
+.navbar-nav .nav-link.active
+{
+    color: var(--secondary-color);
+}
+ .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
